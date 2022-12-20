@@ -11,7 +11,7 @@ const app = express();
 const PORT = process.env.PORT || 8000;
 
 const corsOptions = {
-  origin: "https://spotlightansh.onrender.com/",
+  origin: "https://spotlightansh.onrender.com",
   credentials: true, //access-control-allow-credentials:true
   optionSuccessStatus: 200,
   sameSite: "lax",
